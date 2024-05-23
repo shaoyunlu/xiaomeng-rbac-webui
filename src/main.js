@@ -19,4 +19,3 @@ app.directive("permission" ,permission)
 app.mount('#app')
 
 app.component('zyTable', zyTable)
-
