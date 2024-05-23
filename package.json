@@ -1,0 +1,34 @@
+{
+  "name": "zy-zkweb",
+  "version": "1.0.0",
+  "description": "智库Web后台管理",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite --port 3000 --host 0.0.0.0",
+    "build": "vite build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shaoyunlu/ZY-ZKWeb.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shaoyunlu/ZY-ZKWeb/issues"
+  },
+  "dependencies": {
+    "@wangeditor/editor": "^5.1.23",
+    "@wangeditor/editor-for-vue": "^5.1.12",
+    "axios": "^1.6.7",
+    "vue": "^3.2.47",
+    "vue-router": "^4.2.2",
+    "xiaomeng-ui": "^0.1.32"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-legacy": "^4.0.2",
+    "@vitejs/plugin-vue": "^4.0.0",
+    "less": "^4.1.3",
+    "vite": "^4.1.1"
+  },
+  "homepage": "https://github.com/shaoyunlu/ZY-ZKWeb#readme"
+}
