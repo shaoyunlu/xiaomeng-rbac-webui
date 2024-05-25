@@ -1,7 +1,7 @@
 <template>
     <div class="wrap-login-form">
         <div class="login-form">
-            <h1>后台管理系统</h1>
+            <h1>XiaoMeng-RBAC</h1>
             <xmv-form :mode="formMode" :rules="formRule" ref="formRef" label-width="100px" @keydown.enter="handleFormClick">
                 <xmv-form-item label="" prop="name">
                     <xmv-input v-model="formMode.name" ref="userInputRef"/>
