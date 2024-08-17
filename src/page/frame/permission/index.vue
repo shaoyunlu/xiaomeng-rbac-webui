@@ -110,7 +110,7 @@ export default defineComponent({
             let nodeList = flattenNodes(node)
             let filterList = nodeList.filter(tmp=>{return tmp.hasChildren != true})
             let menuIds = filterList.map(tmp=>tmp.id)
-            tableRef.value.fetchData({menuIdsStr:menuIds.join(",")})
+            tableRef.value.fetchData({menuIdsStr:menuIds.join(",")} ,true)
         }
 
         const handleAdd = ()=>{

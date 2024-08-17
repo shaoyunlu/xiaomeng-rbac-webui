@@ -43,10 +43,12 @@ export default defineComponent({
             fetchData(false)
         }
 
-        const fetchData = (query = {} ,hidepager = true)=>{
+        const fetchData = (query = {} ,resetPage = false)=>{
             cacheQuery = query
-            //hidepager && (total.value = 0)
             loading.value = true
+            if (resetPage){
+                paginationRef.value.reset()
+            }
             let pageInfo = paginationRef.value.getPageInfo()
             let params = {
                     pageNum : pageInfo.pageNum - 1,
