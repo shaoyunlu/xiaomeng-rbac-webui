@@ -48,7 +48,7 @@ export default defineComponent({
                     http.get('user/menu/query' ,{id:res.id}).then(data =>{
                         data.forEach((tmp)=>{
                             tmp.name = tmp.name
-                            tmp.value = tmp.url
+                            tmp.value = (tmp.url != "" ? tmp.url : tmp.id)
                         })
                         let list = tranListToTreeDate(data, 0, "id", "parentId")
                         g_menu.value = list
