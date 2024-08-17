@@ -24,8 +24,9 @@
 - 为方便大家体验，请不要随意进行删除或者修改密码操作，谢谢。
 
 ## 本地运行
--执行init.sql
--请将src\main\resources\application.properties.bak 文件的后缀.bak去掉。
+- npm install
+- npm run dev
+- 浏览器访问 http://localhost:3000
 
 ## 联系方式
 
